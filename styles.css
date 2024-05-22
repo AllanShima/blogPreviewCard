@@ -1,0 +1,116 @@
+.card-image {
+    display: flex;
+    margin-inline: auto;
+    border-radius: 15px;
+    width: 350px;
+    align-self: auto;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+}
+
+.yellow-box {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    max-height: 100px;
+    max-width: 85px;
+    margin-top: 25px;
+}
+
+.yellow-box h3 {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    font-size: 16px;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+.main-box {
+    background-color: hsl(0, 0%, 100%);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 35%);
+    outline: solid 2px hsl(0, 0%, 7%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+    height: 510px;
+    
+    box-shadow: 12px 12px hsl(0, 0%, 7%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.main-box:hover {
+    cursor: pointer;
+    box-shadow: 18px 18px hsl(0, 0%, 7%);
+    transform: translate(-51.5%, 33.5%);
+}
+
+.main-title {
+    color: hsl(0, 0%, 7%);
+    transition: color 0.10s ease;
+}
+
+.main-box:hover .main-title {
+    color: hsl(47, 88%, 63%);
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    vertical-align: top;
+    transform: scale(0.75);
+}
+
+.greg {
+    display: flex;
+    align-items: center;
+}
+
+.greg h3 {
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.greg img {
+    width: 40px;
+    height: 40px;
+}
+
+.attribution {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:hsl(0, 0%, 50%);
+    transform: scale(1.5);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(0, 0%, 50%);
+}
+
+.attribution:hover a {
+    color: hsl(218, 44%, 22%);
+}
+
+.attribution:hover {
+    color: hsl(218, 44%, 22%);
+}
