@@ -66,11 +66,10 @@ h4 {
 
 body {
     background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    vertical-align: top;
 }
 
 .greg {
@@ -88,32 +87,4 @@ body {
 .greg img {
     width: 35px;
     height: 35px;
-}
-
-.attribution {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 400px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:hsl(0, 0%, 50%);
-    transform: scale(1.5);
-}
-
-.attribution a {
-    text-decoration: none;
-    color: hsl(0, 0%, 50%);
-}
-
-.attribution:hover a {
-    color: hsl(218, 44%, 22%);
-}
-
-.attribution:hover {
-    color: hsl(218, 44%, 22%);
 }
